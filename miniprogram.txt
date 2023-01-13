@@ -1,0 +1,11 @@
+var n : int; c: int ; sum: int; i: int
+{read(n);
+sum:=0;
+ c:=10;
+ i:=40;
+ for(i<=n)
+ i:=i+2;
+ sum:=sum+c;
+ c:=c+3;
+ write(sum)
+}
